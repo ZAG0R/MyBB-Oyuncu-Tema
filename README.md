@@ -19,14 +19,14 @@ sunucu.php'yi açıp SiteBaglan2 yazan yerde ki ip(http://api.gametracker.rs/dem
 
 ### Ekledim fakat sunucum gözükmüyor ?
 Normal çünkü [gametracker.rs](http://gametracker.rs/) sitesine sunucunuzun kaydı bulunmuyordur. Aşağıda ki resimler sayesinde kayıt olabilirsiniz ;
-![]({{site.baseurl}}/http://image.prntscr.com/image/b40099c67a73427687cba0ea77c39e06.png)
-![]({{site.baseurl}}/http://image.prntscr.com/image/576db67cd4ba445a9027a19a7ba5f535.png)
+![server](http://image.prntscr.com/image/b40099c67a73427687cba0ea77c39e06.png)
+![server2](http://image.prntscr.com/image/576db67cd4ba445a9027a19a7ba5f535.png)
+
 
 Sunucunuzu ekledikten sonra **My Servers** yazısına tıklayıp eklediğiniz sunucuya tıklayın.
 Sunucunuzun ismin **GameTracker** yapıp **Claim Ownership** deyin.(Sunucunun sahibinin sizin olduğunu teyit ediyor.) Yaptıktan sonra eski haline geri getirebilirsiniz. Hepsi bu kadar.
 ## Profilde kapak fotoğrafı olsun istiyorsanız ;
 Admin paneline girip forum ayarları -> Özel profil yönetimi -> yeni profil alanı ekle diyoruz.
-> Ekle
 
     Profil başlığı                : Kapak Fotoğrafı
     Kısa bilgi                     : Size kalmış
@@ -38,6 +38,7 @@ Admin paneline girip forum ayarları -> Özel profil yönetimi -> yeni profil al
     Gerekli?                       : Kayıt sırasında ve Profil Bilgilerini Düzenleme kısmında bu alanı zorunlu olarak girdirmek istiyorsanız Evet deyin.
     Görüntüleme izinleri     : Tüm gruplar
     Düzenleme İzinleri       : Tüm gruplar
+
 Diyoruz. Oluşturduğumuz Özel profilin üzerine gelip fid sayısını buluyoruz. (Üzerine gelince aşağıda edit&fid4 gibi bir yazı çıkar burda fid numaramız 4 bunu aklımızda tutuyoruz.)
 
 **Temalar&Şablonlar -> Şablonlar -> Üye Profili Şablonlar -> member_profile** açıyoruz.
